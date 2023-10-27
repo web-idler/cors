@@ -3,7 +3,7 @@
     "description": "cors for webman",
     "type": "library",
     "require": {
-        "php": "^8.2",
+        "php": "^8.2"
     },
     "require-dev": {
         "workerman/webman-framework": "^1.5"
