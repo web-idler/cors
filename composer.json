@@ -1,0 +1,23 @@
+{
+    "name": "web-idler/cors",
+    "description": "cors for webman",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+    },
+    "require-dev": {
+        "workerman/webman-framework": "^1.5"
+    },
+    "authors": [
+        {
+            "name": "Ken Po",
+            "email": "webman1688@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "WebIdler\\Cache\\": "src/"
+        }
+    }
+}
